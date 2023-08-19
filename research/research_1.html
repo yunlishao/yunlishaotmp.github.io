@@ -107,7 +107,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
                         <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                        <!-- <li class="breadcrumb-item text-white active" aria-current="page">Research_1</li> -->
+                        <li class="breadcrumb-item text-white active" aria-current="page">Individual Vehicle Control</li>
                     </ol>
                 </nav>
             </div>
@@ -118,22 +118,52 @@
     <!-- Research Start -->
     <div class="container-xxl py-5" style="padding-top:0rem !important">
         <div class="container research-interests">
-            <div class="row g-4 mb-5">
+            <div class="row g-4" style="position: relative; margin-bottom: 4rem;">
                 <h4 class="research-title">Individual Vehicle Control</h4>
-                <!-- <p class="research-funder">Funded by NSF program (PI, $$, time)</p> -->
-
+                <!-- <p class="research-funder">Funded by NSF EPCN program (Single PI, 360K, 06/2021-5/2024)</p> -->
                 <p class="research-content">Connected and automated vehicles (CAVs) can bring energy, mobility, and safety benefits to transportation. Energy savings can be achieved by solving a mathematical optimization problem for a lookahead horizon using previewed traffic information enabled by connectivity. However, it is challenging to predict short term traffic, especially for mixed-traffic scenarios, where both connected and unconnected vehicles are on the road. A unified control framework is developed that integrates real-time traffic prediction with the co-optimization of vehicle motion and powertrain operation. Optimization problems are formulated and solved for the three most common vehicle types: internal combustion engine-based vehicles (ICVs), hybrid electric vehicles (HEVs), and electric vehicles (EVs). The traffic prediction algorithm can handle mixed-traffic scenarios and is based on a macroscopic traffic flow model. Information from connected vehicles essentially provides a partial measurement of traffic states. The rest of the unknown states are estimated using a traffic state observer. Then, the preceding vehicle's future trajectory is obtained and input to the optimization to formulate the car-following distance constraint. The integrated traffic prediction and optimization keep updating in a rolling-horizon fashion. </p>
-                <img src="../assets/R1_img.png">
-                <video controls><source src="../assets/R1_video.mp4" type="video/mp4" ></video>
+                <div class="row mt-3">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                      <div class="card h-100" style="border: 1px solid rgba(0,0,0,0.125);">
+                        <div class="card-body p-0">
+                            <img src="../assets/R1_img.png" class="pt-2" style="width:100% !important; height:auto !important;">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card" style="border: 1px solid rgba(0,0,0,0.125);">
+                        <div class="card-body p-0">
+                            <video controls  style="width:100% !important; height:auto !important; vertical-align:middle;"><source src="../assets/R1_video.mp4" type="video/mp4"></video>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- <img src="../assets/R1_img.png">
+                <video controls><source src="../assets/R1_video.mp4" type="video/mp4" ></video> -->
             </div>
 
-            <!-- <div style="position:relative">
-                <a href="/research/research_2.html" class="btn btn-link btn-sm mt-5 research-link-next">Research_2<i class="fa fa-arrow-right ms-3"></i></a> 
-            </div> -->
+            <div style="position:relative">
+                <a href="/research/research_2.html" class="btn btn-link btn-sm mt-5 research-link-next">Multi-vehicle Cooperative Control<i class="fa fa-arrow-right ms-3"></i></a> 
+            </div>
             
         </div>
     </div>
     <!-- Research End -->
+
+<!-- Footer Start -->
+   <div class="container-fluid bg-dark text-light footer pt-1 mt-1 wow fadeIn">
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="font-size:12px; font-weight:200">
+                    &copy; <a href="#">Yunli Shao Portfolio</a>, All Right Reserved.
+                    <!-- Designed By <a href="https://htmlcodex.com" target="_blank" rel="noopener noreferrer">HTML Codex</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
     
     <!-- Footer Start -->
     <!-- <div class="container-fluid bg-dark text-light footer pt-2 mt-2 wow fadeIn" data-wow-delay="0.1s">

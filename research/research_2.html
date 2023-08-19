@@ -108,7 +108,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
                         <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                        <!-- <li class="breadcrumb-item text-white active" aria-current="page">Research_2</li> -->
+                        <li class="breadcrumb-item text-white active" aria-current="page">Multi-vehicle Cooperative Control</li>
                     </ol>
                 </nav>
             </div>
@@ -119,13 +119,27 @@
     <!-- Research Start -->
     <div class="container-xxl py-5" style="padding-top:0rem !important">
         <div class="container research-interests">
-            <div class="row g-4 mb-5">
+            <div class="row g-4 mb-3">
                 <h4 class="research-title">Multi-vehicle Cooperative Driving</h4>
-                <!-- <p class="research-funder">Funded by NSF program (PI, $$, time)</p> -->
-
+                <!-- <p class="research-funder">Funded by NSF ECCS program (PI, 297K, 9/2017-8/2020)</p> -->
                 <p class="research-content">A centralized controller coordinates the arrivals of vehicles around a merging ramp to improve energy efficiency and mobility. It is a type of Cooperative Driving Automation (CDA) algorithm where a centralized controller receives information on the position of all vehicles inside a control zone near the merging area. A traffic prediction framework is developed to predict the arrival time of each vehicles entering the control zone. Then, the controller coordinates the arrival times of all vehicles at the merging area based on the following principle: a vehicle enters the control zone earlier and closer to the merging area will have a higher priority and hence enter the merging area earlier regardless of whether it is on the main road or the ramp. For example, in figure below, the order will be a blue car, white car, black car on the main road; black car on a ramp, and a green car. This coordination principle can reduce potential queues and stops at both the main road and the ramp to optimize the traffic flow and capacity at the global level. Once the vehicle merging order is coordinated, the controller also optimizes the desired speed of all CAVs with an analytical solution obtained using the Pontryagin minimum principle. </p>
-
-                <p class="research-content"></p>The vidoe shows experimental validation of the cooperative merging scenario using two X-in-the-loop (XIL) laboratories. The
+                <div class="row mt-3">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                      <div class="card h-100" style="border: 1px solid rgba(0,0,0,0.125);">
+                        <div class="card-body p-0">
+                            <img src="../assets/R2_img.png" class="pt-2" style="width:100% !important; height:auto !important;">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card" style="border: 1px solid rgba(0,0,0,0.125);">
+                        <div class="card-body p-0">
+                            <video controls  style="width:100% !important; height:auto !important; vertical-align:middle;"><source src="../assets/R2_video.mp4" type="video/mp4"></video>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <p class="">The vidoe shows experimental validation of the cooperative merging scenario using two X-in-the-loop (XIL) laboratories. The
                 first XIL laboratory emulates a vehicle on the ramp road and includes an actual engine and
                 transmission of a Class 8 truck. The second XIL laboratory emulates a vehicle on the main road
                 and includes a passenger electric vehicle (EV) on a hub dynamometer connected to all four wheels. The optimal
@@ -133,20 +147,36 @@
                 acceleration to leave adequate space for merging. In this scenario, the gear shifts occurred on the
                 actual transmission in the XIL laboratory. It again shows the importance to include detailed vehicle
                 dynamics for CAV evaluation and verifies the results. </p>
-                <img src="../assets/R2_img.png">
-                <video controls><source src="../assets/R2_video.mp4" type="video/mp4" ></video>
+                <!-- <img src="../assets/R2_img.png">
+                <video controls><source src="../assets/R2_video.mp4" type="video/mp4" ></video> -->
             </div>
-            <!-- <div style="position:relative">
-            <a href="/research/research_1.html" class="btn btn-link btn-sm research-link-pre" style="margin-left: -1rem;"><i class="fa fa-arrow-left ms-3"></i>&nbsp;&nbsp;&nbsp;Research_1</a> 
-            <a href="/research/research_1.html" class="btn btn-link btn-sm research-link-next">Research_3<i class="fa fa-arrow-right ms-3"></i></a>
-            </div>   -->
+            <div style="position:relative">
+                <a href="/research/research_1.html" class="btn btn-link btn-sm research-link-pre" style="margin-left: -1rem;"><i class="fa fa-arrow-left ms-3"></i>&nbsp;&nbsp;&nbsp;Individual Vehicle Control</a> 
+                <a href="/research/research_1.html" class="btn btn-link btn-sm research-link-next">Research_3<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>  
         </div>
     </div>
 
     <!-- Research End -->
+
+<!-- Footer Start -->
+   <div class="container-fluid bg-dark text-light footer pt-1 mt-1 wow fadeIn">
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="font-size:12px; font-weight:200">
+                    &copy; <a href="#">Yunli Shao Portfolio</a>, All Right Reserved.
+                    <!-- Designed By <a href="https://htmlcodex.com" target="_blank" rel="noopener noreferrer">HTML Codex</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+    
     
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-2 mt-2 wow fadeIn" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid bg-dark text-light footer pt-2 mt-2 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5" style="padding-left:2.5rem">
                 <div class="col-lg-4 col-md-6">
@@ -182,7 +212,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Footer End -->
 
 

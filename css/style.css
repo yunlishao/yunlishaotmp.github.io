@@ -298,6 +298,8 @@ h5.people-name {
 
 .people-info .edu-info {
     font-weight: 300;
+    display: block;
+    line-height: 1.5 !important;
 }
 
 /*** Research Interests ***/
@@ -333,6 +335,10 @@ h5.people-name {
 }
 
 /*** Publications ***/
+.publication-list .list-group-numbered>li::before {
+    font-size: 1.2rem;
+}
+
 .pub-title a {
     font-size: 1.2rem;
     color: #212529;
