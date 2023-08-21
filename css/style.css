@@ -293,18 +293,27 @@ h5.people-name {
 }
 
 .people-info .school-info {
-    font-weight: 500;
+    font-weight: 500
 }
+
 
 .people-info .edu-info {
     font-weight: 300;
     display: block;
     line-height: 1.5 !important;
+    font-size: 1rem;
 }
 
 /*** Research Interests ***/
 .research-interests .card {
     border: 0;
+}
+
+.research-interests .research-img-width {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .research-interests .card-img-top {
@@ -336,11 +345,11 @@ h5.people-name {
 
 /*** Publications ***/
 .publication-list .list-group-numbered>li::before {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .pub-title a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #212529;
 }
 
@@ -349,18 +358,19 @@ h5.people-name {
 }
 
 .pub-authors {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
     color:#777777;
 }
 
 .pub-info {
     color:#777777;
+    font-size: 0.8rem;
 }
 
-.publication-list .list-group-item {
+/* .publication-list .list-group-item {
     padding-bottom: 1rem;
-}
+} */
 
 /*** Contact ***/
 .contact-me .form-control:focus {
